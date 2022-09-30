@@ -50,9 +50,9 @@ nav img{
 }
 
 .ther ul li a:hover{
-    border:5px #4284a2 solid;
+    /* border:5px #4284a2 solid; */
     background-color: #4284a2;
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
     border-radius: 30px;
     position: relative;
 }
