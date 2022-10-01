@@ -13,6 +13,24 @@
     background-size: cover;
 }
 
+.prog{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #F2F2F2;
+    background-position: center;
+    background-size: cover;
+}
+
+.des{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #F2F2F2;
+    background-position: center;
+    background-size: cover; 
+}
+
+
+
 nav{
     padding: 2% 2%;
     display: flex;
@@ -23,18 +41,25 @@ nav{
 }
 
 nav img{
+    margin-left: 10px;
+    margin-top: 10px;
     width: 350px;
     align-items: center;
+}
+
+.whore{
+    padding: 10px;
+}
+
+.ther{
+    padding: 10px;
 }
 
 .ther ul li{
 
     
-    display: inline-flex;
-    justify-content: flex-end;
-    gap: 30px;
-
-    padding-right: 30px;
+    display: inline-block;
+    justify-content: space-between;
     position: relative;
     transform: translate(0%,-12.5%);
 
@@ -45,15 +70,15 @@ nav img{
     font-size: 30px;
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
-    transition: 0.2 s;
+    transition: 0.1s;
+    padding: 20px;
     cursor: pointer;
 }
 
 .ther ul li a:hover{
     /* border:5px #4284a2 solid; */
     background-color: #4284a2;
-    /* padding: 5px 5px; */
-    border-radius: 30px;
+    border-radius: 40px;
     position: relative;
 }
 
@@ -80,7 +105,91 @@ nav img{
 
 .note p{
     font-size: 20px;
-    padding: 10% 10% 10% 10% ;
+    padding: 10%;
+    padding-top: 5%;
 }
 
+.progr h1{
+    font-family: 'Kanit', sans-serif;
+    color: #181818;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 62px;
+}
 
+.progr p{
+    font-family: 'Kanit', sans-serif;
+    color: #181818;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 20px;
+}
+
+.prog nav img{
+    height: 300px;
+    width: 174px;
+    align-items: center;
+    position: relative;
+    transform: translate(60%,0%);
+}
+
+.prog nav{
+    display: flex;
+    background: #52359b;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 30px;
+}
+
+.ken{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.prog nav{
+    margin-top: 30px;
+}
+
+.kenobi{
+    font-family: 'Kanit', sans-serif;
+    color: #F2F2F2;
+    width: 40%;
+    align-items: center;
+    transform: translate(-50%,0%);
+
+}
+
+.kenobi h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.kenobi p{
+    font-size: 16px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.h{
+    font-family: 'Kanit', sans-serif; 
+    color: #181818;
+    width: 100%;
+    text-align: center;
+
+}
+
+.h h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.h p{
+    font-size: 26px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
